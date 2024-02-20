@@ -3,6 +3,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 import * as XLSX from 'xlsx';
+import "../assets/css/index.css"
 
 function HomePage() {
   const [rowData, setRowData] = useState([]);
