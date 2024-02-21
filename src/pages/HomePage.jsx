@@ -103,6 +103,8 @@ function HomePage() {
           pagination={true}
         />
       </div>
+      br
+
     </div>
   );
 }

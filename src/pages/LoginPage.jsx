@@ -13,7 +13,7 @@ function App() {
   const {isLoged, setIsLoged} = useContext(UserContext);
 
   const users = [
-    { email: "merlin@gmail.com", password: "OrtizMerlin@7755" },
+    { email: "merlin@gmail.com", password: "admin" },
   ];
   const navigate = useNavigate();
 
@@ -24,7 +24,7 @@ function App() {
       setIsLoged(true)
       setErrorMessage('');
       console.log('Usuario autenticado correctamente');
-      navigate('/Table');
+      navigate('/Expresion');
     } else {
       setErrorMessage('Correo electrónico o contraseña incorrectos');
     }
